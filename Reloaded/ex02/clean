@@ -1,4 +1,4 @@
 #!/bin/bash
-find . -name '*~' -delete  -o -name '#*#' -delete
+find . -name '*~' -o -name '#*#' -print -delete
  
 
